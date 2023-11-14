@@ -1,0 +1,33 @@
+.icon {
+    position: relative;
+}
+
+.icon img { 
+    display: block;
+}
+
+.icon .cardFace {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.1s; 
+    position: absolute;
+}
+
+.flipped .cardFace {
+    transform: rotateY(0deg);
+    /* transition-delay: 0.2s; */
+}
+/* 
+.flipped .lockFace {
+    color: #cb8fff;
+} */
+
+/* 
+.icon .coverFace {
+    transition: all ease-in 0.3s;
+    transition-delay: 0.2s;
+}
+
+.flipped .coverFace {
+    transform: rotateY(0deg);
+    transition-delay: 0s;
+} */

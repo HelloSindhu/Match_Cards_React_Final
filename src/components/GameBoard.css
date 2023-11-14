@@ -1,0 +1,18 @@
+.gameBtn:hover {
+  background-color: hsla(61, 100%, 65%, 1);
+}
+
+.grid-board {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.25em;
+}
+
+.action {
+  margin-top: 1.75rem;
+}
+
+.coverFace {
+  cursor: pointer;
+}
